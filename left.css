@@ -1,0 +1,27 @@
+.left{
+    background-color: black;
+    display: grid;
+    row-gap: 0px;
+    top:0;
+    left:0;
+    bottom: 0;
+    width: 70px;
+    justify-content: center;
+    border-right: 1px solid rgb(72, 71, 71);
+    z-index: 700;
+    position: fixed;
+}
+
+.left button{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.settings-button{
+    margin-bottom: 200px;
+}
+
+.search-button{
+    margin-top: 20px;
+}
