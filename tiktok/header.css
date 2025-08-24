@@ -1,0 +1,75 @@
+.header{
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    top: 0;
+    right: 0;
+    left: 372px;
+    height: 90px;
+    border:1px solid rgb(36, 36, 36);
+    z-index: 500;
+}
+
+.photon{
+    width: 50px;
+    border-radius: 50px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+.profile2{
+    width: 200px;
+    display: inline-block;
+    color: rgb(223, 223, 223);
+    margin-left: 4px;
+    vertical-align: middle;
+    margin-bottom: 32px;
+}
+
+.name2{
+    margin-bottom: 8px;
+}
+
+.tarih2{
+    color: rgb(160, 159, 159);
+}
+
+.text{
+    position: fixed;
+    bottom:0;
+    margin-bottom: 15px;
+    background-color: rgb(68, 68, 68);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 3px;
+    font-family: arial,roboto;
+    width: 1050px;
+    z-index: 300;
+    margin-left: 16px;
+}
+
+.closer{
+    background-color: rgb(0, 0, 0);
+    z-index: 500;
+    position: fixed;
+    width: 1084px;
+    right: 0;
+    top:0;
+    bottom:0;
+    opacity: 0;
+}
+.search-div{
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    height: 70px;
+    bottom: 0;
+    z-index: 350;
+    right: 0;
+    width: 1087px;
+    border-top: 1px solid rgb(57, 57, 57);
+}
+
+.closer2{
+    background: none;
+}
